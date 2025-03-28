@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,58 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
 </head>
+<style>
+    .home{
+        background-color: aqua;
+    }
+   
+
+</style>
+
 <body>
+    <nav class="NavTag flex items-center">
+        <div class="home flex items-center justify-between w-full">
+            
+            <!-- first nav box -->
+            <div class="first-nav-box flex items-center">
+                <img src="/1--Spotify_Clone/img.svg/logo.svg" alt="Logo">
+                <img src="/1--Spotify_Clone/img.svg/homeicon.svg" alt="Home">
+            </div>
+    
+            <!-- input section -->
+            <div class="input flex items-center">
+                <img class="Search-img" src="/1--Spotify_Clone/img.svg/search.svg" alt="Search">
+                <input type="text" placeholder="Enter">
+                <img src="/1--Spotify_Clone/img.svg/Files.svg" alt="Files">
+            </div>
+    
+            <!-- second half nav -->
+            <div class="second-half-nav flex items-center">
+                <button class="premium">Premium</button>
+                <button class="premium">Support</button>
+                <button class="premium">Download</button>
+                <hr class="small-line">
+                <a href="" class="flex items-center">
+                    <img src="/1--Spotify_Clone/img.svg/install.svg" alt="install" class="install-img">
+                    <span>Install</span>
+                </a>
+                <div class="entery-button flex items-center">
+                    <button>Sign Up</button>
+                    <button>Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
     <div class="main-cont flex">
         <div class="left border"></div>
+        <div class="library"></div>
         <div class="right border"></div>
     </div>
+
 </body>
+
 </html>
+<!--- 
+xmlns="http://www.w3.org/2000/svg"
+--->

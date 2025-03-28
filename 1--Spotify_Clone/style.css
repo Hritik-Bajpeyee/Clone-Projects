@@ -5,3 +5,29 @@
 .right{
     width: 75vw;
 }
+.home ul li{
+    width: 20px;
+    list-style-type: none;
+}
+img{
+    width: 30px;
+    color: aqua;
+}
+.input{
+    border: 2px solid #ffb100;
+    border-radius: 500px;
+    display: flex;
+    width: 22vw;
+    justify-content: center;
+    /* background-color: black; */
+    color: white;
+}
+.home{
+    display: flex;
+    width: 100vw;
+}
+.first-nav-box{
+    gap: 20px;
+    cursor: pointer;
+
+}
